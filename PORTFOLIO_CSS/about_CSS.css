@@ -1,0 +1,89 @@
+body
+{
+    background-color: rgb(11, 9, 9);
+}
+
+/*NAVBAR STYLING*/
+.navbar
+{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center; /*CENTER THE ENTIRE NAVBAR*/
+}
+
+/*NAVBARLINKS*/
+.navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+/*HOVER EFFECT*/
+.navbar a:hover
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 13px;
+}
+
+/*CONTAINER FOR LEFT AND RIGFHT SIDES*/
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/*LEFT SIDE STYLING*/
+.left-side img
+{
+    width: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+
+/*RIGHT SIDE STYLING*/
+.right-side h1
+{
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    right: 1400px;
+}
+
+.right-side p
+{
+    text-align: center;
+    border: 2px dashed white;
+    border-radius: 10px;
+    font-size: 23px;
+    color: white;
+    font-family: 'Fira Code', cursive;
+    position: absolute;
+    top: 450px;
+    right: 800px;
+    left: 600px;
+}

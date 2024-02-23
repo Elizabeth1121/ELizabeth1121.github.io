@@ -1,0 +1,151 @@
+body
+{
+    background-color: rgb(11, 9, 9);
+}
+
+/*NAVBAR STYLING*/
+.navbar
+{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center; /*CENTER THE ENTIRE NAVBAR*/
+}
+
+/*NAVBARLINKS*/
+.navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+/*HOVER EFFECT*/
+.navbar a:hover
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 13px;
+}
+
+/*CONTAINER FOR LEFT AND RIGFHT SIDES*/
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/*LEFT SIDE STYLING*/
+.left-side
+{
+    flex: 1;
+    text-align: center;
+}
+
+.left-side h1
+{
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+}
+
+.left-side h3
+{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 530px;
+    left: 100px;
+}
+
+.left-side p
+{
+    font-size: 19px;
+    color: white;
+    font-family: 'Fira Code', cursive;
+    position: absolute;
+    top: 650px;
+    left: 985px;
+}
+
+.about-container
+{
+    position: relative;
+    right: 700px;
+}
+
+/*CUBE SECTION*/
+.cube-linkedin,
+.cube-github
+{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.cube-container a
+{   
+    font-size: 90px;
+    color: white;
+}
+
+.cube-container .cube-linkedin
+{
+    position: absolute;
+    bottom: 0;
+    left: 220px;
+}
+
+.cube-linkedin img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cube-container .cube-github
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.cube-github img
+{
+    width: 100%;
+    height: 100%;
+    border: 2px;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+/*RIGHT SIDE STYLING*/
+.right-side img
+{
+    max-width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    right: 20px;
+}
