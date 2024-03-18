@@ -188,7 +188,12 @@ body
 }
 
 /* Add a media query for iPhones */
-@media (max-width: 375px) {
+@media (max-width: 375px) 
+{
+    body
+    {
+        background-color: black;
+    }    
     /* Adjust the font size and position for smaller screens */
     .left-side h1 {
         font-size: 40px;
@@ -209,12 +214,13 @@ body
     }
 
     /* Adjust the position of the cube containers for smaller screens */
-    .cube-container .cube-linkedin,
-    .cube-container .cube-github 
-    {
-        position: fixed;
+    .cube-linkedin,
+    .cube-github {
+        width: 50px; /* Adjust the width as desired */
+        height: 50px; /* Adjust the height as desired */
         bottom: 0;
     }
+
 
     /* Adjust the position of the right-side image for smaller screens */
     .right-side img {
