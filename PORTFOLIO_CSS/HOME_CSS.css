@@ -170,4 +170,12 @@ body
         position: static;
         margin: 0 auto;
     }
+
+    .left-side h1,
+    .left-side h3,
+    .left-side p 
+    {
+        font-size: 16px;
+        position: static;
+    }
 }
