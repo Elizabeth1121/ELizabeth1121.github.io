@@ -178,3 +178,12 @@ body
         left: 485px;
     }
 }
+
+/* Adjust the position of the cube containers for smaller screens */
+@media (max-width: 768px) {
+    .cube-container .cube-linkedin,
+    .cube-container .cube-github {
+        position: fixed;
+        bottom: 0;
+    }
+}
