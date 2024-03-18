@@ -232,16 +232,11 @@ body
 /* Add a media query for the specified device size */
 @media only screen and (width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
 
-    body
-    {
-        background-color: black;
-    }
-    
-    /* Adjust the font size and position for the specified device */
+/* Adjust the font size and position for the specified device */
     .left-side h1 {
-        font-size: 50px;
-        top: 250px;
-        left: 20px;
+    font-size: 50px;
+    top: 200px; /* Adjusted */
+    left: 20px;
     }
 
     .left-side h3 {
@@ -266,7 +261,7 @@ body
 
     /* Adjust the position of the right-side image for the specified device */
     .right-side img {
-        top: 150px;
-        right: 10px;
-    }
+    top: 300px; /* Adjusted */
+    right: 10px;
+    }  
 }
