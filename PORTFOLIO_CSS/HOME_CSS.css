@@ -157,35 +157,24 @@ body
     right: 20px;
 }
 
-/*MEDIA QUERIES*/
-@media screen and (max-width: 480px) 
-{
-    .container 
-    {
-        flex-direction: column;
+/* Add a media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    /* Adjust the font size and position for smaller screens */
+    .left-side h1 {
+        font-size: 60px;
+        top: 300px;
+        left: 20px;
     }
 
-    .right-side img 
-    {
-        position: static;
-        margin: 0 auto;
-        margin-top: 170px;
+    .left-side h3 {
+        font-size: 20px;
+        top: 330px;
+        left: 50px;
     }
 
-    .cube-linkedin,
-    .cube-github 
-    {
-        width: 45%;
-        height: auto;
-        position: static;
-        margin: 0 auto;
-    }
-
-    .left-side h1,
-    .left-side h3,
-    .left-side p 
-    {
+    .left-side p {
         font-size: 16px;
-        position: static;
+        top: 450px;
+        left: 485px;
     }
 }
