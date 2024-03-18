@@ -143,9 +143,31 @@ body
 /*RIGHT SIDE STYLING*/
 .right-side img
 {
+    /*max-width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    right: 20px;*/
+
     max-width: 100%;
+    height: auto;
     border-radius: 10px;
     position: absolute;
     top: 200px;
     right: 20px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 600px) 
+{
+    .container 
+    {
+        flex-direction: column;
+    }
+
+    .right-side img 
+    {
+        position: static;
+        margin: 0 auto;
+    }
 }
