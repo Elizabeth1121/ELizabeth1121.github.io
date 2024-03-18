@@ -169,6 +169,16 @@ body
     {
         position: static;
         margin: 0 auto;
+        margin-top: 170px;
+    }
+
+    .cube-linkedin,
+    .cube-github 
+    {
+        width: 45%;
+        height: auto;
+        position: static;
+        margin: 0 auto;
     }
 
     .left-side h1,
