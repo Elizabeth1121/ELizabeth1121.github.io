@@ -51,3 +51,30 @@ body
     color: white;
     text-align: center;
 }
+
+/*2000px media query*/
+@media (min-width: 2000px)
+{
+    .resume-container
+    {
+        font-size: 50px;
+    }
+}
+
+/*1440px media query*/
+@media (min-width: 1440px)
+{
+    .resume-container
+    {
+        font-size: 40px;
+    }
+}
+
+/*932px media query*/
+@media (max-width: 932px)
+{
+    .resume-container
+    {
+        font-size: 30px;
+    }
+}
