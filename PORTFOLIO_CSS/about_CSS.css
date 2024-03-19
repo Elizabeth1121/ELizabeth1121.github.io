@@ -111,23 +111,23 @@ body
 }
 
 /* MEDIA QUERY FOR 1080PX */
-@media (max-width: 1080px) {
+@media (max-width: 1440px) {
     .left-side img {
         width: 300px;
-        top: 200px;
-        left: 20px;
+        top: 300px;
+        left: 80px;
     }
 
     .right-side h1 {
         font-size: 60px;
-        top: 150px;
-        right: 900px;
+        top: 250px;
+        right: 700px;
     }
 
     .right-side p {
         top: 350px;
-        right: 400px;
-        left: 300px;
+        right: 200px;
+        left: 400px;
     }
 }
 
