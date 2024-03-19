@@ -97,3 +97,58 @@ body
     border-radius: 50px;
     object-fit: contain;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 2000px) {
+    /* Adjustments for 2000px */
+    .cube-linkedin,
+    .cube-github {
+        width: 300px;
+        height: 300px;
+    }
+
+    .cube-container .cube-linkedin
+    {
+        right: 600px;
+    }
+}
+
+/*screen size 1440px*/
+@media (max-width: 1440px) {
+    /* Adjustments for 1440px */
+    .cube-linkedin,
+    .cube-github {
+        width: 300px;
+        height: 200px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 932px) {
+    /* Adjustments for 932px */
+    .cube-linkedin,
+    .cube-github {
+        width: 400px;
+        height: 400px;
+        top: 212%;
+    }
+
+    .cube-container .cube-linkedin
+    {
+        right: 20px;
+    }
+
+    .navbar
+    {
+       width: 259%;
+       font-size: 20px;
+    }
+
+    h1
+    {
+        font-size: 100px;
+        margin-left: 400px;
+        margin-top: 700px;
+    }
+    
+}
