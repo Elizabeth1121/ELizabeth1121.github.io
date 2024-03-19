@@ -157,111 +157,92 @@ body
     right: 20px;
 }
 
-/* Add a media query for screens with a maximum width of 768px */
-@media (max-width: 768px) {
-    /* Adjust the font size and position for smaller screens */
+@media screen and (min-width: 2000px) {
+    /* Adjust the elements for a screen width of 2000px */
     .left-side h1 {
-        font-size: 60px;
-        top: 300px;
-        left: 20px;
+        font-size: 150px;
+        top: 600px;
+        left: 100px;
     }
 
     .left-side h3 {
-        font-size: 20px;
-        top: 330px;
-        left: 50px;
+        font-size: 40px;
+        top: 630px;
+        left: 150px;
     }
 
     .left-side p {
-        font-size: 16px;
-        top: 450px;
+        top: 750px;
+        left: 1185px;
+    }
+
+    .about-container {
+        right: 900px;
+    }
+
+    .cube-container .cube-linkedin {
+        left: 320px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    /* Adjust the elements for a screen width of 1080px */
+    .left-side h1 {
+        font-size: 70px;
+        left: 10px;
+        top: 440px;
+    }
+
+    .left-side h3 {
+        font-size: 25px;
+        top: 430px;
+        left: 100px;
+    }
+
+    .left-side p {
+        top: 550px;
         left: 485px;
     }
 
-    /* Adjust the position of the cube containers for smaller screens */
-    .cube-container .cube-linkedin,
-    .cube-container .cube-github 
-    {
-        position: fixed;
-        bottom: 0;
+    .about-container {
+        right: 500px;
+    }
+
+    .cube-container .cube-linkedin {
+        left: 270px;
+    }
+
+    .right-side img {
+        max-width: 50%;
+        height: auto;
     }
 }
 
-/* Add a media query for iPhones */
-@media (max-width: 375px) 
+@media screen and (max-width: 932px) 
 {
-    body
-    {
-        background-color: black;
-    }    
-    /* Adjust the font size and position for smaller screens */
+    /* Adjustments for devices with screen width up to 932px */
     .left-side h1 {
-        font-size: 40px;
-        top: 200px;
-        left: 20px;
+        font-size: 200%; /* Adjust as needed */
+        top: 50px; /* Adjust as needed */
+        left: 10px; /* Adjust as needed */
     }
 
     .left-side h3 {
-        font-size: 16px;
-        top: 230px;
-        left: 50px;
+        font-size: 25px; /* Adjust as needed */
+        top: 100px; /* Adjust as needed */
+        left: 15px; /* Adjust as needed */
     }
 
     .left-side p {
-        font-size: 14px;
-        top: 350px;
-        left: 285px;
+        font-size: 200%; /* Adjust as needed */
+        top: 600px; /* Adjust as needed */
+        left: 20px; /* Adjust as needed */
     }
 
-    /* Adjust the position of the cube containers for smaller screens */
-    .cube-linkedin,
-    .cube-github {
-        width: 50px; /* Adjust the width as desired */
-        height: 50px; /* Adjust the height as desired */
-        bottom: 0;
-    }
-
-
-    /* Adjust the position of the right-side image for smaller screens */
     .right-side img {
-        top: 100px;
-        right: 10px;
+        max-width: 60%;
+        height: auto;
+        margin-top: 10%;
+        margin-right: 15%;
     }
-}
-
-/* Add a media query for the specified device size */
-@media only screen and (width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-
-/* Adjust the font size and position for the specified device */
-    .left-side h1 {
-    font-size: 50px;
-    top: 200px; /* Adjusted */
-    left: 20px;
-    }
-
-    .left-side h3 {
-        font-size: 20px;
-        top: 280px;
-        left: 50px;
-    }
-
-    .left-side p {
-        font-size: 16px;
-        top: 400px;
-        left: 285px;
-    }
-
-    /* Adjust the position of the cube containers for the specified device */
-    .cube-linkedin,
-    .cube-github {
-        width: 80px; /* Adjust the width as desired */
-        height: 80px; /* Adjust the height as desired */
-        bottom: 0;
-    }
-
-    /* Adjust the position of the right-side image for the specified device */
-    .right-side img {
-    top: 300px; /* Adjusted */
-    right: 10px;
-    }  
 }
