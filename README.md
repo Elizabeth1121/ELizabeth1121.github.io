@@ -36,3 +36,7 @@ https://github.com/Elizabeth1121/JavaScript/tree/main/Pizza_Project
 https://github.com/Elizabeth1121/JavaScript/tree/main/TicTacToe
    - This is an example TicTacToe Game
    - Just a simple game of TicTackToe
+
+## My Repos
+1. **C# Repo**
+https://github.com/Elizabeth1121/The-Tech-Academy-Basic-C-Sharp-Projects
