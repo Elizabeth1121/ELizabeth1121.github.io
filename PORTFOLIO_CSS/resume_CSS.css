@@ -45,11 +45,16 @@ body
     font-size: 13px;
 }
 
-/*WORK IN PROGRESS SECTION*/
+/*RESUME SECTION*/
 .resume-container
 {
     color: white;
     text-align: center;
+}
+
+a
+{
+    color: white;
 }
 
 /*2000px media query*/
