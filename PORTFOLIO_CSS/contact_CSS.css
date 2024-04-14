@@ -124,10 +124,23 @@ body
     }
 }
 
-@media (max-width: 932px) {
+@media (max-width: 932px) 
+{
     /* Adjustments for 932px */
+    h1
+    {
+        font-size: 150px;
+    }
+
+    .text-container
+    {
+        margin-left: 70%;
+        width: fit-content;
+    }
+
     .cube-linkedin,
-    .cube-github {
+    .cube-github 
+    {
         width: 400px;
         height: 400px;
         top: 212%;
@@ -135,13 +148,14 @@ body
 
     .cube-container .cube-linkedin
     {
-        right: 20px;
+        left: 100px;
     }
 
     .navbar
     {
        width: 259%;
-       font-size: 20px;
+       margin-top: 30px;
+       font-size: 50px;
     }
 
     h1
