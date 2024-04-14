@@ -157,7 +157,9 @@ body
     right: 20px;
 }
 
-@media screen and (min-width: 2000px) {
+/*MEDIA QUERYS*/
+@media screen and (min-width: 2000px) 
+{
     /* Adjust the elements for a screen width of 2000px */
     .left-side h1 {
         font-size: 150px;
@@ -185,7 +187,7 @@ body
     }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1440px) {
     /* Adjust the elements for a screen width of 1080px */
     .left-side h1 {
         font-size: 70px;
@@ -223,20 +225,20 @@ body
     /* Adjustments for devices with screen width up to 932px */
     .left-side h1 {
         font-size: 200%; /* Adjust as needed */
-        top: 50px; /* Adjust as needed */
-        left: 10px; /* Adjust as needed */
+        top: 50px;  /*Adjust as needed */
+        right: 10px;  /*Adjust as needed */
     }
 
     .left-side h3 {
-        font-size: 25px; /* Adjust as needed */
-        top: 100px; /* Adjust as needed */
-        left: 15px; /* Adjust as needed */
+        display: none;
     }
 
     .left-side p {
-        font-size: 200%; /* Adjust as needed */
-        top: 600px; /* Adjust as needed */
-        left: 20px; /* Adjust as needed */
+        /*font-size: 200%;  Adjust as needed 
+        top: 600px;  Adjust as needed 
+        left: 20px;  Adjust as needed */
+
+        display: none;
     }
 
     .right-side img {
