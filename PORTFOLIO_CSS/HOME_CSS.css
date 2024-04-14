@@ -158,6 +158,42 @@ body
 }
 
 /*MEDIA QUERYS*/
+@media screen and (max-width: 2160px)
+{
+    .left-side h1
+    {
+        font-size: 80px;
+        top: 100px;
+        left: 180px;
+    }
+
+    .left-side h3
+    {
+        font-size: 25px;
+        top: 210px;
+        left: 300px;
+    }
+
+    .left-side p
+    {
+        top: 230px;
+        left: 875px;
+    }
+
+    .about-container
+    {
+        right: 900px;
+    }
+
+    .right-side img
+    {
+        top: 350px;
+        right: 200px;
+        width:500px;
+        height: auto;
+    }
+}
+
 @media screen and (min-width: 2000px) 
 {
     /* Adjust the elements for a screen width of 2000px */
@@ -187,7 +223,8 @@ body
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) 
+{
     /* Adjust the elements for a screen width of 1080px */
     .left-side h1 {
         font-size: 70px;
@@ -217,34 +254,35 @@ body
     .right-side img {
         max-width: 50%;
         height: auto;
+        right: 50px;
     }
 }
 
 @media screen and (max-width: 932px) 
 {
     /* Adjustments for devices with screen width up to 932px */
-    .left-side h1 {
+    .left-side h1 
+    {
         font-size: 200%; /* Adjust as needed */
         top: 50px;  /*Adjust as needed */
-        right: 10px;  /*Adjust as needed */
+        left: 240px;  /*Adjust as needed */
     }
 
-    .left-side h3 {
+    .left-side h3 
+    {
         display: none;
     }
 
-    .left-side p {
-        /*font-size: 200%;  Adjust as needed 
-        top: 600px;  Adjust as needed 
-        left: 20px;  Adjust as needed */
-
+    .left-side p 
+    {
         display: none;
     }
 
-    .right-side img {
+    .right-side img 
+    {
         max-width: 60%;
         height: auto;
-        margin-top: 10%;
         margin-right: 15%;
+        left: 200px;
     }
 }
