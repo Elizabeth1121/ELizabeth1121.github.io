@@ -286,3 +286,23 @@ body
         left: 200px;
     }
 }
+
+@media screen and (max-width: 426px)
+{
+    .left-side h1
+    {
+        font-size: 150%;
+        top: 70px;
+        left: 70px;
+    }
+
+    .left-side p
+    {
+        display: none;
+    }
+
+    .right-side img
+    {
+        display: none;
+    }
+}

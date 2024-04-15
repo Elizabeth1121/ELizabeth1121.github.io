@@ -163,6 +163,15 @@ body
         font-size: 100px;
         margin-left: 400px;
         margin-top: 700px;
+    } 
+}
+
+@media screen and (max-width: 426px)
+{
+    .text-container h1
+    {
+        font-size: 50px;
+        margin-left: 200px;
     }
     
 }
