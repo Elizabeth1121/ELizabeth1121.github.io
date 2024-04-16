@@ -131,6 +131,14 @@ body
     }
 }
 
+@media screen and (max-width: 1025px)
+{
+    .right-side h1
+    {
+        right: 200px;
+    }   
+}
+
 /* MEDIA QUERY FOR 932PX */
 @media (max-width: 932px) {
     .left-side img {
